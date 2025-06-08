@@ -87,7 +87,7 @@ Banco de dados Oracle e deploy na Railway.
 
 ## Deploy na Railway
 
-- Link do deploy: `https://<seu-projeto>.up.railway.app`
+- Link do deploy: `https://demo-production-e90a.up.railway.app`
 - Variáveis de ambiente configuradas:
   - `SPRING_DATASOURCE_URL`
   - `SPRING_DATASOURCE_USERNAME`
@@ -108,5 +108,5 @@ Banco de dados Oracle e deploy na Railway.
 ## Contato
 
 Heitor Pereira Duarte  
-Email: heitor@email.com  
-GitHub: https://github.com/seu-usuario
+Email: heitorpdte@gmail.com 
+GitHub: https://github.com/HeitorPD25
