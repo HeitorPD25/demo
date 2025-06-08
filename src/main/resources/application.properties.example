@@ -2,14 +2,17 @@ spring.application.name=demo
 
 logging.level.org.springframework.security=DEBUG
 
-jwt.secret=Y29uZmlnU3VwZXJTZWNyZXRKd3RUb2tlbjEyMzQ1Njc4OQ==
+jwt.secret=SUA_JWT_SECRET_AQUI
 
+# Banco de Dados Oracle
 spring.datasource.url=jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL
-spring.datasource.username=RM558208
-spring.datasource.password=250205
+spring.datasource.username=SEU_USUARIO_AQUI
+spring.datasource.password=SUA_SENHA_AQUI
 
+# Driver Oracle
 spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
 
+# JPA / Hibernate
 spring.jpa.database-platform=org.hibernate.dialect.OracleDialect
 spring.jpa.hibernate.ddl-auto=none
 spring.jpa.show-sql=true
